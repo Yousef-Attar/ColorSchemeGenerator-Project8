@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Source Code Pro", monospace;
+}
+header{
+    font-size: 0.75rem;
+    font-family: sans-serif;
+    background-color:#f9f9f9 ;
+    color: #333333;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-section{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em;
+}
+.intro-section input{
+    width: 80px;
+    border: 1px solid #313131;
+    border-radius: 6px;
+    align-self: center;
+    max-width: 100px;
+    height: 40px;
+}
+.intro-section select{
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border-radius: 6px;
+    padding: 10px;
+    color: #111827;
+    font-size: 1rem;
+    max-width: 350px;
+}
+
+.intro-section button{
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    width: 100%;
+    color: #374151;
+    font-weight: bold;
+    font-size: 0.75rem;
+    max-width: 250px;
+}
+.scheme-colors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.scheme-colors button{
+    color: #111827;
+    height: 250px;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    flex: 1 auto;
+}
+.scheme-colors p{
+    text-align: center;
+    padding: 1em;
+}
+input, button, select, option{
+    cursor: pointer;
+}

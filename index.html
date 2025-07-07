@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Mono&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><span>🎨</span> ColorSchemeGen</h1>
+    </header>
+    <main>
+        <section class="intro-section">
+            <input type="color" name="seed-color" id="seedColor">
+            <select name="scheme-mode" id="schemeMode">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <button id="getScheme">Get color scheme</button>
+        </section>
+        <section id="schemeColors" class="scheme-colors">
+            <!-- <div>
+                <button class="copy-color" id="copyColor"></button>
+                <p class="hex-value" id="hexValue">#0000</p>
+            </div>
+            <div>
+                <button class="copy-color" id="copyColor"></button>
+                <p class="hex-value" id="hexValue">#1234</p>
+            </div>
+            <div>
+                <button class="copy-color" id="copyColor"></button>
+                <p class="hex-value" id="hexValue">#2345</p>
+            </div>
+            <div>
+                <button class="copy-color" id="copyColor"></button>
+                <p class="hex-value" id="hexValue">#5432</p>
+            </div>
+            <div>
+                <button class="copy-color" id="copyColor"></button>
+                <p class="hex-value" id="hexValue">#9876</p>
+            </div> -->
+        </section>
+    </main>
+    <!-- <footer>
+
+    </footer> -->
+    <script src="script.js"></script>
+</body>
+</html>
